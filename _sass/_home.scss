@@ -1,0 +1,85 @@
+/**
+ * Home
+ */
+
+.home .landing {
+    height: 100%;
+    height: calc( 100vh - 9rem );
+    @extend .center-center;
+}
+
+@keyframes pop {
+    0% { opacity: 0; transform: scale(0.9)}
+    100% {opacity: 1; transform: scale(1)}
+}
+.logo {
+    width: 80%;
+    max-width: 40rem;
+    margin-top: 2rem;
+    path {
+        opacity: 0;
+        transform-origin: center center;
+        animation: pop 0.5s 0s cubic-bezier(0.24, 1.8, 0.55, 0.75) forwards;
+    }
+    path:nth-of-type(2) {
+        animation-delay: 0.2s;
+    }
+    path:nth-of-type(3) {
+        animation-delay: 0.3s;
+    }
+    path:nth-of-type(4) {
+        animation-delay: 0.1s;
+    }
+}
+@keyframes logo {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+.logo-symbol {
+    width: 4rem;
+    position: fixed;
+    top: 1em;
+    left: $spacing-unit;
+    stroke-dasharray: 150,150;
+    stroke-dashoffset: 150;
+    animation: logo 2s forwards cubic-bezier(0.11, 0.36, 0.17, 1);
+    @include media-query($on-laptop) {
+        left: $spacing-unit / 2;
+    }
+}
+.arrow {
+    height: 3.5rem;
+    width: auto;
+    margin: 0 auto;
+    padding: 0.5rem 3rem 2rem;
+    transition: transform $transition-speed $ease-in-out;
+}
+
+.tidslinje-header {
+	text-align: center;
+	@extend .lpb;
+	a {
+		&:hover {
+			.arrow {
+				transform: translate3D(0, 0.5rem, 0);
+			}
+		}
+	}
+}
+
+.post-list {
+    border-left: 2px solid $accent;
+    padding: 0 2rem;
+    .post-meta {
+        position: relative;
+        &::before {
+            content: "";
+            border-top: 2px solid $accent;
+            width: 1rem;
+            position: absolute;
+            top: 0.5rem;
+            left: -2rem;
+        }
+    }
+}

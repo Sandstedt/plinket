@@ -1,0 +1,19 @@
+{
+  "name": "plinket",
+  "version": "1.0.0",
+  "description": "Plinket är ett Göteborgsbaserat drink-plink-band med influenser från Post Modern Jukebox och gamla jazzdängor.",
+  "main": "index.html",
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandstedt/plinket.git"
+  },
+  "author": "Jonas Sandstedt",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Sandstedt/plinket/issues"
+  },
+  "homepage": "https://github.com/Sandstedt/plinket#readme"
+}
