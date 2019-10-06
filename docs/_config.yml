@@ -24,7 +24,7 @@ email: plinketjazz@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Plinket är ett Göteborgsbaserat drink-plink-band med
   influenser från Post Modern Jukebox och gamla jazzdängor.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/plinket" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
