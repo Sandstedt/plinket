@@ -2,9 +2,10 @@
   "name": "plinket",
   "version": "1.0.0",
   "description": "Plinket är ett Göteborgsbaserat drink-plink-band med influenser från Post Modern Jukebox och gamla jazzdängor.",
-  "main": "index.html",
+  "main": "index.markdown",
   "scripts": {
-    "start": "bundle exec jekyll serve"
+    "start": "cd docs && bundle exec jekyll serve",
+    "build": "cd docs && jekyll build"
   },
   "repository": {
     "type": "git",
