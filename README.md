@@ -1,7 +1,7 @@
 # Plinket.
 Plinket är ett Göteborgsbaserat drink-plink-band med influenser från Post Modern Jukebox och gamla jazzdängor.
 
-Kontakta Niklas på [mailto:plinketjazz@gmail.com](plinketjazz@gmail.com) för frågor och bokningar.
+Kontakta Niklas på [plinketjazz@gmail.com](mailto:plinketjazz@gmail.com) för frågor och bokningar.
 
 
 ## Dev:
