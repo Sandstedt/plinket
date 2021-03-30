@@ -9,4 +9,4 @@ To start the project locally:
 * `gem install bundler jekyll`
 * `bundle exec jekyll serve` OR `npm run start`
 
-To deploy the project. Just push it up to the master branch on GitHub.
+To deploy the project. Just push it up to the master branch on GitHub. And hopefully it should deploy fine.
